@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'Wentrisor';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../source/fonts/Wentrisor/Wentrisor.ttf');
+}
+
+@font-face {
+    font-family: 'Wizland';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../source/fonts/Wizland/WIZLAND.ttf');
+}
+
+@font-face {
+    font-family: 'Inkulinati';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../source/fonts/Inkulinati/Inkulinati-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Orpheus';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../source/fonts/Orpheus/Orpheus.ttf');
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    width: 50%;
+    max-width: 330px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.avatar {
+    margin: 10px;
+    width: 70%;
+    background: no-repeat;
+    display: flex;
+    flex-direction: column;
+    max-height: 220px;
+    max-width: 220px;
+}
+
+.avatar > img {
+    border-radius: 50%;
+}
+
+.name {
+    background-position: center;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 40px;
+    font-family: 'Wentrisor';
+    font-size: 30px;
+}
+
+header {
+    background-image: url("../source/img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    HEIGHT: 445px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tower {
+    width: 100%;
+    background-image: url("../source/img/tower-top.png");
+    background-repeat: repeat-x;
+    height: 130px;
+    background-size: 200px;
+}
+
+.content {
+    background-image: url("../source/img/wall.jpg");
+    background-repeat: repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+section {
+    background-image: url("../source/img/window.png");
+    margin: 200px;
+    margin-bottom: 100px;
+    height: 450px;
+    background-size: cover;
+    width: 270px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition: transform 2s;
+    transform: translate(100px, 100px);
+}
+
+section > div{
+    background-color: #B89750;
+    transform: translateX(-135px);
+    border-radius: 40px;
+    width: 540px;
+    height: 450px;
+    color: #3c5b55;
+    font-family: 'Wizland';
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: opacity 1s;
+}
+
+.photo {
+    margin: 15px;
+    border-radius: 50px;
+    height: 350px;
+    width: 60%;
+}
+
+.dance > .photo {  
+    background: url("../source/img/dance_1.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.board_games > .photo {
+    background: url("../source/img/board_games.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fire_show > .photo {  
+    background: url("../source/img/fire_show.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.board_roleplaying_games > .photo {  
+    background: url("../source/img/DnD.jpg") no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.hand_made > .photo {  
+    background: url("../source/img/handmade_1.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.roleplaying_games > .photo {  
+    background: url("../source/img/roleplay_1.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.archery > .photo {  
+    background: url("../source/img/archery_1.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+span {
+    width: 40%;
+    padding: 20px;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.show{
+    opacity: 1;
+}
+
+footer {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse
+}
+
+.social {
+    display: flex;
+    width: 20%;
+    height: 70px;
+    margin: 5px;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.vk {
+    background: url("../source/img/vk.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.github {
+    background: url("../source/img/github.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
